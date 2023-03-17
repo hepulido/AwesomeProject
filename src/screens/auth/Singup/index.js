@@ -10,7 +10,7 @@ const Singup = () => {
       <AuthHeader title="Sign Up" />
       <Input label="Name" placeholder="Hector Pulido" />
       <Input label="E-mail" placeholder="Example@gmail.com" />
-      <Input label="Password" placeholder="*********" />
+      <Input isPassword label="Password" placeholder="Password" />
     </View>
   );
 };
